@@ -21,13 +21,13 @@ function toggleMode (){
   
   const listas = document.querySelector('ul li a')
 
+  // substitui o html para expressoes adequadas, assim como os links
   if (html.classList.contains('light')){
-    listas.innerHTML = '"Música é a maior forma de expressão metafísica do ser humano"'
-    listas.setAttribute('href','https://www.instagram.com/p/Cy4GqyRrXxj/?img_index=1')
+    listas.innerHTML = '"Música é a maior forma de expressão metafísica do ser humano"';
+    listas.setAttribute('href','https://www.instagram.com/p/Cy4GqyRrXxj/?img_index=1');
   }
   else{
-    listas.innerHTML = '"Hack all the things"'
-
-    listas.setAttribute('href','https://tryhackme.com/p/liquidsmoke')
+    listas.innerHTML = '"Hack all the things"';
+    listas.setAttribute('href','https://tryhackme.com/p/liquidsmoke');
   }
 }

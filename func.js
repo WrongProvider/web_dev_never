@@ -13,10 +13,10 @@ function toggleMode (){
 
   //substitui alguns elementos da pagina
   if (html.classList.contains('light')){
-    img.setAttribute('src', './assets/avatar-light.png')
+    img.setAttribute('src', './assets/happy_guitar.png')
   }
   else {
-    img.setAttribute('src', './assets/avatar.png')
+    img.setAttribute('src', './assets/me_dev.jpg')
   }
   
 }

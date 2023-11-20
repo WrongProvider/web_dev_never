@@ -242,3 +242,8 @@ footer a{
     left: 0%;
   }
 }
+
+footer ion-icon {
+  margin-left: 4px;
+  font-size: 14px;
+}

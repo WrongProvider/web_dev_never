@@ -153,7 +153,7 @@ ul li a{
   align-items: center;
   /* alinha intens partindo da vertical do bloco */
   justify-content: center;
-
+  text-align: center;
   padding: 16px 24px;
 
   background: var(--surface-color);

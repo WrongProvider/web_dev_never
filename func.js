@@ -16,7 +16,7 @@ function toggleMode (){
     img.setAttribute('src', './assets/happy_guitar.png')
   }
   else {
-    img.setAttribute('src', './assets/me_dev.jpg')
+    img.setAttribute('src', './assets/me_dev_format.png')
   }
   
 }

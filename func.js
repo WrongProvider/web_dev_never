@@ -26,6 +26,8 @@ function toggleMode (){
     listas.setAttribute('href','https://www.instagram.com/p/Cy4GqyRrXxj/?img_index=1')
   }
   else{
+    listas.innerHTML = '"Hack all the things"'
+
     listas.setAttribute('href','https://tryhackme.com/p/liquidsmoke')
   }
 }
